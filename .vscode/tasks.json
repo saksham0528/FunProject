@@ -1,0 +1,30 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Run Streamlit backend",
+			"type": "shell",
+			"command": "C:\\Users\\saksh\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+			"args": [
+				"-m",
+				"streamlit",
+				"run",
+				"app.py",
+				"--server.headless",
+				"true"
+			],
+			"isBackground": true,
+			"problemMatcher": []
+		},
+		{
+			"label": "Seed demo attendance data",
+			"type": "shell",
+			"command": "C:\\Users\\saksh\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+			"args": [
+				"seed_demo_data.py"
+			],
+			"isBackground": false,
+			"problemMatcher": []
+		}
+	]
+}
